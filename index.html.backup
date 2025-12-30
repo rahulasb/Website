@@ -1,0 +1,600 @@
+<!DOCTYPE htm <-jar Skills Section -->l>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name | Computer Engineering Portfolio</title>
+    <meta name="description"
+        content="Computer Engineering portfolio showcasing projects, coursework, and technical skills">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <!-- EDIT THIS: Replace with your name or initials -->
+                <a href="#home">YourName</a>
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+                <li class="nav-item"><a href="#courses" class="nav-link">Courses</a></li>
+                <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Home/About Section -->
+    <section id="home" class="hero-section">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <div class="hero-tag">
+                        <!-- EDIT THIS: Your major/focus -->
+                        <span class="circuit-icon">⚡</span>
+                        Computer Engineering Student
+                    </div>
+                    <!-- EDIT THIS: Replace with your name -->
+                    <h1 class="hero-title">
+                        Hi, I'm <span class="gradient-text">Your Name</span>
+                    </h1>
+                    <!-- EDIT THIS: Write your introduction paragraph -->
+                    <p class="hero-description">
+                        I am a passionate Computer Engineering student specializing in [Your Specialization - e.g.,
+                        embedded systems, software development, hardware design]. I have experience in [mention key
+                        skills - e.g., circuit design, programming, system architecture] and enjoy building innovative
+                        solutions to complex problems.
+                    </p>
+                    <div class="hero-stats">
+                        <div class="stat-item">
+                            <!-- EDIT THIS: Number of projects -->
+                            <div class="stat-number">10+</div>
+                            <div class="stat-label">Projects</div>
+                        </div>
+                        <div class="stat-item">
+                            <!-- EDIT THIS: Years of experience -->
+                            <div class="stat-number">3+</div>
+                            <div class="stat-label">Years Learning</div>
+                        </div>
+                        <div class="stat-item">
+                            <!-- EDIT THIS: Number of courses -->
+                            <div class="stat-number">20+</div>
+                            <div class="stat-label">Courses</div>
+                        </div>
+                    </div>
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn btn-primary">View Projects</a>
+                        <a href="#contact" class="btn btn-secondary">Get in Touch</a>
+                    </div>
+                </div>
+                <div class="hero-visual">
+                    <div class="circuit-board">
+                        <div class="circuit-line line-1"></div>
+                        <div class="circuit-line line-2"></div>
+                        <div class="circuit-line line-3"></div>
+                        <div class="circuit-node node-1"></div>
+                        <div class="circuit-node node-2"></div>
+                        <div class="circuit-node node-3"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Featured Projects</h2>
+                <p class="section-subtitle">A collection of my academic and personal projects</p>
+            </div>
+
+            <div class="projects-grid">
+                <!-- 
+                    ============================================
+                    PROJECT TEMPLATE - COPY THIS ENTIRE BLOCK TO ADD NEW PROJECTS
+                    ============================================
+                -->
+
+                <!-- Project Card 1 -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <div class="project-icon">🔧</div>
+                        <!-- EDIT THIS: Project name -->
+                        <h3 class="project-title">Project Name Here</h3>
+                    </div>
+                    <!-- EDIT THIS: Project description -->
+                    <p class="project-description">
+                        Brief description of your project. Explain what it does, what problem it solves,
+                        and what technologies you used. Keep it concise but informative.
+                    </p>
+                    <div class="project-tags">
+                        <!-- EDIT THIS: Add/remove tags as needed -->
+                        <span class="tag">Python</span>
+                        <span class="tag">Arduino</span>
+                        <span class="tag">IoT</span>
+                    </div>
+                    <div class="project-links">
+                        <!-- EDIT THIS: Add your project links (GitHub, demo, etc.) -->
+                        <a href="https://github.com/yourusername/project" class="project-link" target="_blank">
+                            <span>GitHub</span>
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                <path
+                                    d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"
+                                    fill="currentColor" />
+                            </svg>
+                        </a>
+                        <a href="#" class="project-link" target="_blank">
+                            <span>Live Demo</span>
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                <path d="M14 9v5H2V2h5M10 2h4v4M6 10l8-8" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Project Card 2 -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <div class="project-icon">💻</div>
+                        <!-- EDIT THIS: Project name -->
+                        <h3 class="project-title">Another Project Name</h3>
+                    </div>
+                    <!-- EDIT THIS: Project description -->
+                    <p class="project-description">
+                        Another project description here. Explain the technical challenges you faced,
+                        the solutions you implemented, and the impact of your work.
+                    </p>
+                    <div class="project-tags">
+                        <!-- EDIT THIS: Add/remove tags as needed -->
+                        <span class="tag">C++</span>
+                        <span class="tag">Embedded Systems</span>
+                        <span class="tag">RTOS</span>
+                    </div>
+                    <div class="project-links">
+                        <!-- EDIT THIS: Add your project links -->
+                        <a href="https://github.com/yourusername/project" class="project-link" target="_blank">
+                            <span>GitHub</span>
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                <path
+                                    d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"
+                                    fill="currentColor" />
+                            </svg>
+                        </a>
+                        <a href="#" class="project-link" target="_blank">
+                            <span>Documentation</span>
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                <path d="M14 9v5H2V2h5M10 2h4v4M6 10l8-8" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Project Card 3 -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <div class="project-icon">⚙️</div>
+                        <!-- EDIT THIS: Project name -->
+                        <h3 class="project-title">Third Project Title</h3>
+                    </div>
+                    <!-- EDIT THIS: Project description -->
+                    <p class="project-description">
+                        Description for your third project. Highlight what makes this project unique
+                        and what you learned from building it.
+                    </p>
+                    <div class="project-tags">
+                        <!-- EDIT THIS: Add/remove tags as needed -->
+                        <span class="tag">JavaScript</span>
+                        <span class="tag">React</span>
+                        <span class="tag">Node.js</span>
+                    </div>
+                    <div class="project-links">
+                        <!-- EDIT THIS: Add your project links -->
+                        <a href="https://github.com/yourusername/project" class="project-link" target="_blank">
+                            <span>GitHub</span>
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                <path
+                                    d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"
+                                    fill="currentColor" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- ADD NEW PROJECTS ABOVE THIS LINE -->
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Technical Skills</h2>
+                <p class="section-subtitle">A comprehensive overview of my technical expertise and tools</p>
+            </div>
+
+            <div class="skills-categories">
+
+                <!-- Category 1: Programming & Scripting Languages -->
+                <div class="skill-category">
+                    <div class="category-header">
+                        <div class="category-icon">💻</div>
+                        <h3 class="category-title">Programming & Scripting Languages</h3>
+                    </div>
+                    <div class="skills-grid">
+                        <div class="skill-item"><span class="skill-icon">🔷</span> C</div>
+                        <div class="skill-item"><span class="skill-icon">🔷</span> C++</div>
+                        <div class="skill-item"><span class="skill-icon">🐍</span> Python</div>
+                        <div class="skill-item"><span class="skill-icon">☕</span> Java</div>
+                        <div class="skill-item"><span class="skill-icon">🔷</span> C#</div>
+                        <div class="skill-item"><span class="skill-icon">🦀</span> Rust</div>
+                        <div class="skill-item"><span class="skill-icon">🔷</span> Go (Golang)</div>
+                        <div class="skill-item"><span class="skill-icon">🍎</span> Swift</div>
+                        <div class="skill-item"><span class="skill-icon">🤖</span> Kotlin</div>
+                        <div class="skill-item"><span class="skill-icon">⚙️</span> Assembly (x86, ARM, RISC-V)</div>
+                        <div class="skill-item"><span class="skill-icon">💎</span> Ruby</div>
+                        <div class="skill-item"><span class="skill-icon">🐪</span> Perl</div>
+                        <div class="skill-item"><span class="skill-icon">🐘</span> PHP</div>
+                        <div class="skill-item"><span class="skill-icon">🖥️</span> Shell Scripting (Bash/Zsh)</div>
+                        <div class="skill-item"><span class="skill-icon">💠</span> PowerShell</div>
+                    </div>
+                </div>
+
+                <!-- Category 2: Hardware Description & Engineering Languages -->
+                <div class="skill-category">
+                    <div class="category-header">
+                        <div class="category-icon">⚡</div>
+                        <h3 class="category-title">Hardware Description & Engineering Languages</h3>
+                    </div>
+                    <div class="skills-grid">
+                        <div class="skill-item"><span class="skill-icon">🔌</span> Verilog</div>
+                        <div class="skill-item"><span class="skill-icon">🔌</span> VHDL</div>
+                        <div class="skill-item"><span class="skill-icon">🔌</span> SystemVerilog</div>
+                        <div class="skill-item"><span class="skill-icon">🔌</span> SystemC</div>
+                        <div class="skill-item"><span class="skill-icon">📊</span> MATLAB</div>
+                        <div class="skill-item"><span class="skill-icon">📊</span> Simulink</div>
+                        <div class="skill-item"><span class="skill-icon">🔬</span> LabVIEW (G-code)</div>
+                        <div class="skill-item"><span class="skill-icon">🏭</span> Ladder Logic (PLC)</div>
+                    </div>
+                </div>
+
+                <!-- Category 3: Web & Mobile Development -->
+                <div class="skill-category">
+                    <div class="category-header">
+                        <div class="category-icon">🌐</div>
+                        <h3 class="category-title">Web & Mobile Development</h3>
+                    </div>
+                    <div class="skills-grid">
+                        <div class="skill-item"><span class="skill-icon">🔶</span> HTML5</div>
+                        <div class="skill-item"><span class="skill-icon">🎨</span> CSS3</div>
+                        <div class="skill-item"><span class="skill-icon">📜</span> JavaScript (ES6+)</div>
+                        <div class="skill-item"><span class="skill-icon">📘</span> TypeScript</div>
+                        <div class="skill-item"><span class="skill-icon">🎯</span> Dart (Flutter)</div>
+                        <div class="skill-item"><span class="skill-icon">⚛️</span> React Native</div>
+                        <div class="skill-item"><span class="skill-icon">🗄️</span> SQL (MySQL, PostgreSQL, SQLite)
+                        </div>
+                        <div class="skill-item"><span class="skill-icon">🍃</span> NoSQL (MongoDB, Firebase)</div>
+                    </div>
+                </div>
+
+                <!-- Category 4: Embedded Systems & IoT -->
+                <div class="skill-category">
+                    <div class="category-header">
+                        <div class="category-icon">🔧</div>
+                        <h3 class="category-title">Embedded Systems & IoT</h3>
+                    </div>
+                    <div class="skills-grid">
+                        <div class="skill-item"><span class="skill-icon">🔵</span> Microcontrollers (STM32, AVR, MSP430,
+                            PIC)</div>
+                        <div class="skill-item"><span class="skill-icon">⏱️</span> RTOS (FreeRTOS, Zephyr, RT-Thread)
+                        </div>
+                        <div class="skill-item"><span class="skill-icon">🤖</span> Arduino</div>
+                        <div class="skill-item"><span class="skill-icon">🍓</span> Raspberry Pi</div>
+                        <div class="skill-item"><span class="skill-icon">🦴</span> BeagleBone</div>
+                        <div class="skill-item"><span class="skill-icon">💾</span> Firmware Development</div>
+                        <div class="skill-item"><span class="skill-icon">🚗</span> Device Drivers</div>
+                    </div>
+                </div>
+
+                <!-- Category 5: Hardware Design & Simulation Tools -->
+                <div class="skill-category">
+                    <div class="category-header">
+                        <div class="category-icon">🛠️</div>
+                        <h3 class="category-title">Hardware Design & Simulation Tools</h3>
+                    </div>
+                    <div class="skills-grid">
+                        <div class="skill-item"><span class="skill-icon">📉</span> LTSpice</div>
+                        <div class="skill-item"><span class="skill-icon">📉</span> PSpice</div>
+                        <div class="skill-item"><span class="skill-icon">📉</span> Multisim</div>
+                        <div class="skill-item"><span class="skill-icon">🔲</span> Altium Designer</div>
+                        <div class="skill-item"><span class="skill-icon">🔲</span> KiCad</div>
+                        <div class="skill-item"><span class="skill-icon">🦅</span> Eagle PCB</div>
+                        <div class="skill-item"><span class="skill-icon">🔲</span> Cadence Allegro</div>
+                        <div class="skill-item"><span class="skill-icon">❌</span> Xilinx Vivado</div>
+                        <div class="skill-item"><span class="skill-icon">🔷</span> Intel Quartus Prime</div>
+                        <div class="skill-item"><span class="skill-icon">📊</span> ModelSim</div>
+                    </div>
+                </div>
+
+                <!-- Category 6: Communication Protocols -->
+                <div class="skill-category">
+                    <div class="category-header">
+                        <div class="category-icon">📡</div>
+                        <h3 class="category-title">Communication Protocols</h3>
+                    </div>
+                    <div class="skills-grid">
+                        <div class="skill-item"><span class="skill-icon">📤</span> UART</div>
+                        <div class="skill-item"><span class="skill-icon">📤</span> SPI</div>
+                        <div class="skill-item"><span class="skill-icon">📤</span> I2C</div>
+                        <div class="skill-item"><span class="skill-icon">🚌</span> CAN Bus</div>
+                        <div class="skill-item"><span class="skill-icon">🏭</span> Modbus</div>
+                        <div class="skill-item"><span class="skill-icon">🔌</span> USB</div>
+                        <div class="skill-item"><span class="skill-icon">🌐</span> Ethernet (TCP/IP)</div>
+                        <div class="skill-item"><span class="skill-icon">📶</span> BLE (Bluetooth Low Energy)</div>
+                        <div class="skill-item"><span class="skill-icon">📶</span> Zigbee</div>
+                        <div class="skill-item"><span class="skill-icon">📡</span> LoRaWAN</div>
+                        <div class="skill-item"><span class="skill-icon">💬</span> MQTT</div>
+                        <div class="skill-item"><span class="skill-icon">🌐</span> HTTP/REST</div>
+                    </div>
+                </div>
+
+                <!-- Category 7: Tools, Libraries & Frameworks -->
+                <div class="skill-category">
+                    <div class="category-header">
+                        <div class="category-icon">📦</div>
+                        <h3 class="category-title">Tools, Libraries & Frameworks</h3>
+                    </div>
+                    <div class="skills-grid">
+                        <div class="skill-item"><span class="skill-icon">🐙</span> Git/GitHub</div>
+                        <div class="skill-item"><span class="skill-icon">🐳</span> Docker</div>
+                        <div class="skill-item"><span class="skill-icon">☸️</span> Kubernetes</div>
+                        <div class="skill-item"><span class="skill-icon">🐧</span> Linux/Unix</div>
+                        <div class="skill-item"><span class="skill-icon">🐞</span> GDB</div>
+                        <div class="skill-item"><span class="skill-icon">🔧</span> CMake</div>
+                        <div class="skill-item"><span class="skill-icon">👁️</span> OpenCV</div>
+                        <div class="skill-item"><span class="skill-icon">🧠</span> TensorFlow</div>
+                        <div class="skill-item"><span class="skill-icon">🔥</span> PyTorch</div>
+                        <div class="skill-item"><span class="skill-icon">🤖</span> ROS (Robot Operating System)</div>
+                        <div class="skill-item"><span class="skill-icon">🧠</span> Keras</div>
+                        <div class="skill-item"><span class="skill-icon">🔢</span> NumPy</div>
+                        <div class="skill-item"><span class="skill-icon">🐼</span> Pandas</div>
+                    </div>
+                </div>
+
+                <!-- Category 8: Testing & Measurement -->
+                <div class="skill-category">
+                    <div class="category-header">
+                        <div class="category-icon">🔬</div>
+                        <h3 class="category-title">Testing & Measurement</h3>
+                    </div>
+                    <div class="skills-grid">
+                        <div class="skill-item"><span class="skill-icon">📊</span> Oscilloscopes</div>
+                        <div class="skill-item"><span class="skill-icon">📊</span> Logic Analyzers</div>
+                        <div class="skill-item"><span class="skill-icon">📊</span> Spectrum Analyzers</div>
+                        <div class="skill-item"><span class="skill-icon">📶</span> Signal Generators</div>
+                        <div class="skill-item"><span class="skill-icon">⚡</span> Digital Multimeters</div>
+                        <div class="skill-item"><span class="skill-icon">🔗</span> Boundary Scan (JTAG)</div>
+                        <div class="skill-item"><span class="skill-icon">🔥</span> Soldering</div>
+                        <div class="skill-item"><span class="skill-icon">🔧</span> SMT Rework</div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Courses Section -->
+    <section id="courses" class="courses-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Academic Coursework</h2>
+                <p class="section-subtitle">Key courses and projects completed during my studies</p>
+            </div>
+
+            <div class="courses-grid">
+                <!-- 
+                    ============================================
+                    COURSE TEMPLATE - COPY THIS ENTIRE BLOCK TO ADD NEW COURSES
+                    ============================================
+                -->
+
+                <!-- Course Card 1 -->
+                <div class="course-card">
+                    <div class="course-code">
+                        <!-- EDIT THIS: Course code -->
+                        CSE 101
+                    </div>
+                    <!-- EDIT THIS: Course name -->
+                    <h3 class="course-title">Introduction to Programming</h3>
+                    <!-- EDIT THIS: Course description and work done -->
+                    <p class="course-description">
+                        Brief description of the course content, what you learned, and any notable
+                        projects or assignments you completed. Include specific technologies or concepts covered.
+                    </p>
+                    <div class="course-highlights">
+                        <h4 class="highlights-title">Key Projects & Work:</h4>
+                        <ul class="highlights-list">
+                            <!-- EDIT THIS: Add/remove list items as needed -->
+                            <li>Developed a [project name] that [what it does]</li>
+                            <li>Implemented [algorithm/system] using [technology]</li>
+                            <li>Collaborated on [group project description]</li>
+                        </ul>
+                    </div>
+                    <div class="course-skills">
+                        <!-- EDIT THIS: Add relevant technologies/skills -->
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">Data Structures</span>
+                        <span class="skill-tag">Algorithms</span>
+                    </div>
+                </div>
+
+                <!-- Course Card 2 -->
+                <div class="course-card">
+                    <div class="course-code">
+                        <!-- EDIT THIS: Course code -->
+                        ECE 201
+                    </div>
+                    <!-- EDIT THIS: Course name -->
+                    <h3 class="course-title">Digital Logic Design</h3>
+                    <!-- EDIT THIS: Course description and work done -->
+                    <p class="course-description">
+                        Description of digital logic design coursework, including work with logic gates,
+                        combinational circuits, sequential circuits, and FPGA programming.
+                    </p>
+                    <div class="course-highlights">
+                        <h4 class="highlights-title">Key Projects & Work:</h4>
+                        <ul class="highlights-list">
+                            <!-- EDIT THIS: Add/remove list items as needed -->
+                            <li>Designed and simulated a [circuit type] using [tool/software]</li>
+                            <li>Programmed FPGA to implement [functionality]</li>
+                            <li>Built and tested [hardware project]</li>
+                        </ul>
+                    </div>
+                    <div class="course-skills">
+                        <!-- EDIT THIS: Add relevant technologies/skills -->
+                        <span class="skill-tag">Verilog</span>
+                        <span class="skill-tag">FPGA</span>
+                        <span class="skill-tag">Circuit Design</span>
+                    </div>
+                </div>
+
+                <!-- Course Card 3 -->
+                <div class="course-card">
+                    <div class="course-code">
+                        <!-- EDIT THIS: Course code -->
+                        CSE 301
+                    </div>
+                    <!-- EDIT THIS: Course name -->
+                    <h3 class="course-title">Computer Architecture</h3>
+                    <!-- EDIT THIS: Course description and work done -->
+                    <p class="course-description">
+                        Comprehensive study of computer architecture concepts including CPU design,
+                        memory hierarchy, pipelining, and parallel processing.
+                    </p>
+                    <div class="course-highlights">
+                        <h4 class="highlights-title">Key Projects & Work:</h4>
+                        <ul class="highlights-list">
+                            <!-- EDIT THIS: Add/remove list items as needed -->
+                            <li>Simulated a [processor type] with [features]</li>
+                            <li>Optimized code for [performance metric] improvement</li>
+                            <li>Analyzed and improved [system component]</li>
+                        </ul>
+                    </div>
+                    <div class="course-skills">
+                        <!-- EDIT THIS: Add relevant technologies/skills -->
+                        <span class="skill-tag">Assembly</span>
+                        <span class="skill-tag">CPU Design</span>
+                        <span class="skill-tag">Performance Analysis</span>
+                    </div>
+                </div>
+
+                <!-- Course Card 4 -->
+                <div class="course-card">
+                    <div class="course-code">
+                        <!-- EDIT THIS: Course code -->
+                        ECE 401
+                    </div>
+                    <!-- EDIT THIS: Course name -->
+                    <h3 class="course-title">Embedded Systems</h3>
+                    <!-- EDIT THIS: Course description and work done -->
+                    <p class="course-description">
+                        Advanced coursework in embedded systems design, real-time operating systems,
+                        and microcontroller programming for practical applications.
+                    </p>
+                    <div class="course-highlights">
+                        <h4 class="highlights-title">Key Projects & Work:</h4>
+                        <ul class="highlights-list">
+                            <!-- EDIT THIS: Add/remove list items as needed -->
+                            <li>Created an embedded [application type] using [platform]</li>
+                            <li>Integrated sensors and actuators for [purpose]</li>
+                            <li>Implemented real-time scheduling for [system]</li>
+                        </ul>
+                    </div>
+                    <div class="course-skills">
+                        <!-- EDIT THIS: Add relevant technologies/skills -->
+                        <span class="skill-tag">C/C++</span>
+                        <span class="skill-tag">ARM Cortex</span>
+                        <span class="skill-tag">RTOS</span>
+                    </div>
+                </div>
+
+                <!-- ADD NEW COURSES ABOVE THIS LINE -->
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Get In Touch</h2>
+                <p class="section-subtitle">Feel free to reach out for collaborations or opportunities</p>
+            </div>
+
+            <div class="contact-content">
+                <div class="contact-info">
+                    <!-- EDIT THIS: Add your contact information -->
+                    <div class="contact-item">
+                        <div class="contact-icon">📧</div>
+                        <div>
+                            <h3>Email</h3>
+                            <a href="mailto:your.email@example.com">your.email@example.com</a>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="contact-icon">💼</div>
+                        <div>
+                            <h3>LinkedIn</h3>
+                            <a href="https://linkedin.com/in/yourprofile"
+                                target="_blank">linkedin.com/in/yourprofile</a>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="contact-icon">🔗</div>
+                        <div>
+                            <h3>GitHub</h3>
+                            <a href="https://github.com/yourusername" target="_blank">github.com/yourusername</a>
+                        </div>
+                    </div>
+
+                    <!-- OPTIONAL: Add more contact methods if needed -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>
+                <!-- EDIT THIS: Add your name and year -->
+                &copy; 2024 Your Name. Built with passion for Computer Engineering.
+            </p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,15 @@
+/* Remove box styling from project links in course cards */
+.course-card .project-link {
+    padding: 0;
+    border: none;
+    border-radius: 0;
+    background: transparent;
+    font-size: 1.1rem;
+}
+
+.course-card .project-link:hover {
+    background: transparent;
+    border-color: transparent;
+    transform: none;
+    box-shadow: none;
+}
