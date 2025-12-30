@@ -213,6 +213,12 @@ body {
     margin-bottom: 1.5rem;
 }
 
+.hero-title u {
+    text-decoration-color: blue;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 4px;
+}
+
 .gradient-text {
     background: var(--gradient-1);
     -webkit-background-clip: text;
