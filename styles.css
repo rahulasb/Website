@@ -1290,6 +1290,79 @@ body {
     line-height: 1.7;
 }
 
+/* ============================================
+   POSITIONS BAR (Hero Section)
+   ============================================ */
+.positions-bar {
+    margin: 2rem 0 1.5rem;
+    padding: 1.5rem 2rem;
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius-md);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+}
+
+.positions-heading {
+    font-size: 1rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    color: var(--primary);
+    margin-bottom: 1.2rem;
+    padding-bottom: 0.6rem;
+    border-bottom: 2px solid rgba(0, 212, 255, 0.2);
+    display: inline-block;
+}
+
+.positions-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.85rem;
+}
+
+.position-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+    padding: 0.75rem 1rem;
+    border-left: 3px solid rgba(0, 212, 255, 0.25);
+    border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+    background: rgba(0, 212, 255, 0.03);
+    transition: all var(--transition-fast);
+}
+
+.position-item:hover {
+    border-left-color: var(--primary);
+    background: rgba(0, 212, 255, 0.07);
+    transform: translateX(4px);
+}
+
+.position-icon {
+    font-size: 1.3rem;
+    line-height: 1;
+    flex-shrink: 0;
+    margin-top: 0.15rem;
+}
+
+.position-text {
+    display: flex;
+    flex-direction: column;
+    gap: 0.15rem;
+}
+
+.position-role {
+    font-size: 1.05rem;
+    font-weight: 600;
+    color: var(--text-primary);
+}
+
+.position-detail {
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+    line-height: 1.5;
+}
+
 .course-highlights {
     margin-bottom: 1.5rem;
 }
